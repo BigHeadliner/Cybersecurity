@@ -368,9 +368,20 @@
 
  }
 
- @media(max-width: 570px) {
+ @media(max-width: 570px) { 
+     
+    .header .discovery-call__title, 
+    .faq__title,  
+    .reasons__title, 
+    .сhoose-us__title, 
+    .reviews__title, 
+    .discovery-call__title { 
+      font-size: 37px;
+      line-height: 49px;
+      color: #000; 
+  } 
 
-     // reasons
+     // reasons 
 
      .reasons__inner {
          padding: 34px 40px 19px;
@@ -723,7 +734,19 @@
 
  }
 
- @media(max-width: 395px) {
+ @media(max-width: 395px) { 
+     
+    .header .discovery-call__title, 
+    .faq__title,  
+    .reasons__title, 
+    .сhoose-us__title, 
+    .reviews__title, 
+    .discovery-call__title { 
+    
+      font-size: 28px;
+      line-height: 39px;
+      color: #000; 
+  } 
 
      // reviews
 
