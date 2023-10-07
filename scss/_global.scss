@@ -14,11 +14,17 @@
     border: 1px solid transparent;   
 }  
  
-// .title{ 
-//     font-family: 'Montserrat-Bold', sans-serif; 
-//     font-weight: 700;
-//     font-size: 110px; 
-//     line-height: 90%; 
-//     color: #000; 
-// } 
+ .discovery-call__title, 
+ .faq__title,  
+ .reasons__title, 
+ .сhoose-us__title, 
+ .reviews__title, 
+ .discovery-call__title { 
+    //font-family: 'Montserrat-Bold', sans-serif; 
+    //font-weight: 700; 
+     @extend %montserrat-700;
+      font-size: 110px; 
+      line-height: 90%; 
+      color: #000; 
+  } 
  
